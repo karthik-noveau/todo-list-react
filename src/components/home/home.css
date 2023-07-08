@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.HomeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.HomeContainerBox{
+    width: 90%;
+}
+
+.HomeTitleContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+.HomeTitleContainer h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #252525;
+}
+.HomeTitleContainer button {
+    width: 69px;
+    height: 31px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1990ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

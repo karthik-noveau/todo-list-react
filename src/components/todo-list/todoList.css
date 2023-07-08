@@ -1,0 +1,142 @@
+
+.HomeContainer table{
+    width:100%;
+    border-collapse:collapse;
+}
+.HomeContainer table tr th p {
+    text-align: start;
+    border-left: 1px solid #d7d7d7;
+    vertical-align: ce;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #292929;
+}
+
+.HomeContainer table tr {
+    border-bottom: 1px solid #ececec;
+}
+.HomeContainer table tr:first-child{
+    border-bottom: none;
+}
+.HomeContainer table tr th:first-child p{
+    border: none;
+}
+.HomeContainer table tr td p {
+    padding-left: 20px;
+    font-weight: 500;
+    width: 160px;
+    overflow-wrap: break-word;
+}
+.HomeContainer table tr:first-child th {
+    background-color: #f1f1f18a;
+}
+.actionIconContainer{
+    display: flex;
+    padding-left: 20px;
+}
+.editIcon {
+    color: #1990ff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.deleteIcon {
+    color: #1990ff;
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.formContainer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.formContainerBox {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formContainerBox input {
+    width: 200px;
+    margin-bottom: 12px;
+    padding: 9px 0 8px 10px;
+    /* border-radius: 5px; */
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.formContainerBox  select {
+    width: 200px;
+    padding: 9px 0 8px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.formContainerBox button {
+    width: 207px;
+    margin-top: 29px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:#1990ff;
+    color: white;
+    cursor: pointer;
+}
+label {
+    width: 200px;
+    text-align: start;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.formContainerBox button:focus, .formContainerBox input:focus, .formContainerBox  select:focus{
+    outline: none;
+}
+.statusCompleted{
+    color: green;
+}
+.statusNotStarted{
+    color:red;
+}
+ 
+.COMPLETED {
+    color: green;
+    background-color: #c8ffc5;
+    /* color: white; */
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px 0;
+    padding-left: 0px !important;
+    font-size: 14px;
+    border: 1px solid green;
+    width: 125px !important;
+    margin-left: 17px;
+}
+.NOT-STARTED {
+    color: #f42a2a;
+    background-color: #edc8c8;
+    /* color: white; */
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px 0;
+    padding-left: 0px !important;
+    font-size: 14px;
+    border: 1px solid red;
+    width: 125px !important;
+    margin-left: 17px;
+}
+.IN-PROGRESS{
+    color: blue;
+    background-color: #c5c5ff;
+    /* color: white; */
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px 0;
+    padding-left: 0px !important;
+    font-size: 14px;
+    border: 1px solid blue;
+    width: 125px !important;
+    margin-left: 17px;
+}
